@@ -1,0 +1,341 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+@font-face {
+  font-family: MTN;
+  src: url('../fonts/MTNBrighterSans-Medium.otf') format('opentype');
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type:none;
+  }
+  header {
+    height:60px;
+    width:100%;
+    position:fixed;
+    background: white;
+    z-index:120;
+  }
+  header li {
+    float: left;
+    list-style-type:none;
+    border-right: 1px solid #252525;
+  }
+  header li a {
+    float: left;
+    width: 120px;
+    height: 30px;
+    padding: 20px 10px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 1px;
+
+    font-family: MTN;
+  }
+  header .logo {
+    float: left;
+    width: 201px;
+    height: 40px;
+    color: orangered;
+    background-color: black;
+    font-family: MTN;
+    margin-top: 8px;
+  }
+  .hero{
+    height:100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.973), rgba(0, 0, 0, 0.76)), url('https://source.unsplash.com/5fNmWej4tAA/1920x1080');
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .context{
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 200px;
+    font-family: MTN;
+  }
+  
+  .context h1{
+    font-size: 50px;
+    color: white;
+  }
+  .context p{
+    font-size: 20px;
+    color: rgb(90, 90, 90);
+  }
+  
+  
+  .topbtn {
+    padding: 30px 70px;
+    border: 0;
+    border-radius: 15px;
+    background: orangered;
+    font-family: MTN;
+    font-size: 24px;
+    font-weight: normal;
+    cursor: pointer;
+    color: white;
+    margin-top: 100px;
+    margin-left: 600px;
+    }
+  
+    .btn:hover{
+      background-color: black;
+      color: white;
+    }
+
+  
+  #sectiontwo{
+    margin-top: 120px
+  }
+  #sectiontwo h3{
+    font-size: 70px;
+    font-family: MTN;
+    text-align: center;
+  }
+
+  .textboxone{
+    background-color: black;
+    color: white;
+    font-family: MTN;
+    font-size: 14px;
+    font-weight: none;
+    padding: 10px;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+
+  .sectionthree{
+    margin-top: 120px
+  }
+  .sectionthree h3{
+    font-size: 40px;
+    font-family: MTN;
+    text-align: center;
+  }
+
+  .textboxtwo{
+    display: flex;
+    flex-direction: row;
+    border: solid black;
+    color: black;
+    font-family: MTN;
+    font-size: 14px;
+    font-weight: none;
+    padding: 10px;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .valueone{
+      height: 200px;
+      border: solid black;
+      background-color: white;
+      box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
+      border-radius: 20px;
+      margin-left: 30px;
+    }
+
+    .valueone h6{
+      font-size: 20px;
+    }
+
+    .valuetwo{
+      height: 200px;
+      border: solid black;
+      background-color: white;
+      box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
+      border-radius: 20px;
+      margin-left: 30px;
+    }
+    .valuetwo h6{
+      font-size: 20px;
+    }
+
+    .valuethree{
+      height: 200px;
+      border: solid black;
+      background-color: white;
+      box-shadow: 0px 0px 8px rgba(8, 14, 5, 0.15);
+      border-radius: 20px;
+      margin-left: 30px;
+    }
+
+    .valuethree h6{
+      font-size: 20px;
+    }
+
+    .sectionfour{
+      margin-top: 100px;
+      display: flex;
+      height: 150px;
+      flex-direction: row;
+      background-color: black;
+      color: white;
+    }
+    
+    .sectionfour h4{
+      font-size: 40px;
+      font-family: MTN;
+      text-align: left;
+      color: orangered;
+    }
+
+
+    .statone{
+      margin-top: 30px;
+      height: 200px;
+      border-radius: 20px;
+      font-family: MTN;
+      font-size: 12px;
+    }
+
+
+    .stattwo{
+      margin-top: 30px;
+      height: 200px;
+      border-radius: 20px;
+      margin-left: 500px;
+      font-family: MTN;
+      font-size: 12px;
+    }
+
+    .statthree{
+      margin-top: 30px;
+      height: 200px;
+      border-radius: 20px;
+      margin-left: 400px;
+      font-family: MTN;
+      font-size: 12px;
+    }
+
+
+    #sectionfive{
+      margin-top: 150px;
+      color: black;
+      text-align: center;
+    }
+    
+    #sectionfive h3{
+      font-size: 40px;
+      font-family: MTN;
+    }
+
+    #sectionfive p{
+      margin-top: 50px;
+      padding: 20px;
+      font-family: MTN;
+    }
+
+    .teamsection{
+      margin-top: 50px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .teamone{
+      width: 400px;
+      height: 400px;
+      background-image: url('../images/Bill-Gates-2011.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .teamtext1{
+      margin-top: 420px;
+      font-family: MTN;
+      font-size: 20px
+    }
+
+    .teamtwo{
+      width: 400px;
+      height: 400px;
+      margin-left: 70px;
+      background-image: url('../images/close-up-fashion-portrait-mix-race-woman-with-brown-skin-curly-african-hairstyle-vivid-pink-background-wearing-silver-winter-jacket-grey-hat_273443-104.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    .teamtext2{
+      margin-top: 420px;
+      font-family: MTN;
+      font-size: 20px
+    }
+
+    .teamthree{
+      width: 400px;
+      height: 400px;
+      margin-left: 80px;
+      background-image: url('../images/michelle\ obama.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    .teamtext3{
+      margin-top: 420px;
+      font-family: MTN;
+      font-size: 20px
+    }
+
+
+
+    #sectionsix{
+      margin-top: 250px;
+      color: black;
+      text-align: center;
+    }
+    
+    .sectionsix h3{
+      font-size: 40px;
+      font-family: MTN;
+    }
+
+
+
+  .servicesection1{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .servicetext1{
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+  }
+
+  .servicetext1 h5{
+    font-family: MTN;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .servicetext1 p{
+    margin-top: 40px;
+    font-family: MTN;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .serviceimg1{
+    height: 600px;
+    width: 600px;
+    background-image: url('../images/adult-african-american-people-black-women-business-1181605\ \(1\).jpg');
+    background-size: cover;
+    background-position: center;
+  }
